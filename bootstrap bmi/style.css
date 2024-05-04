@@ -1,0 +1,29 @@
+body {
+    background-color: #F5F5F5; /* Light gray background */
+    color: #333333;
+    overflow: hidden; /* Dark text color */
+  }
+  .navbar {
+    background-color: #333333; /* Dark gray navbar background */
+  }
+  .navbar-brand {
+    color: #FFFFFF; /* White text color for navbar brand */
+  }
+  .glass-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Box shadow */
+    overflow: hidden; /* Hide overflow */
+  }
+  .fadeInAnimation {
+    animation: fadeIn 0.5s ease-in; /* Fade-in effect */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
